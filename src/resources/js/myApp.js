@@ -86,6 +86,6 @@ app.directive("interactiveBtn", function ()
     return {
         restrict: "E",
         transclude: true,
-        template:   "<h2>Life sucks</h2>"
+        template:   "<h2>Pushing so I can can continue working from anywhere</h2>"
     }
 });
