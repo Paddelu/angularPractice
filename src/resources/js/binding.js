@@ -1,8 +1,8 @@
 var app = angular.module("MyApp", []);
-app.controller("MainCtrl". function ($scope)
+app.controller("MainCtrl", function ($scope)
 {
                
                $scope.data = {
-               label : "My Button"
+               label: "My Button1"
                };
 });

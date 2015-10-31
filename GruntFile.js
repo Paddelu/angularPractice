@@ -7,8 +7,8 @@ module.exports = function (grunt)
 				separator: "\n\n"
 			},
 			dist: {
-				src: ['src/resources/js/**/*.js'],
-				dest: 'src/<%= pkg.name %>.js'
+				src: ["src/resources/js/myApp.js"],
+				dest: 'src/resources/js/<%= pkg.name %>.js'
 			},
 			deps: {
 				src: [
@@ -41,7 +41,7 @@ module.exports = function (grunt)
 
 		watch: {
 			scripts: {
-				files: ['src/resources/js/**/*.js'],
+				files: ['src/resources/js/binding.js'],
 				tasks: ['concat:dist']
 			},
 			styles: {
