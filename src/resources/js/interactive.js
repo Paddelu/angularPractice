@@ -1,5 +1,5 @@
 /*use strict*/
-var app = angular.module("MyApp", []);
+var app = angular.module("MyApp2", []);
 
 app.controller("ShieldCtrl", function ($scope) {
     $scope.shieldNames = [];
