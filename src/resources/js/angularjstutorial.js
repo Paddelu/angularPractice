@@ -86,6 +86,6 @@ app.directive("interactiveBtn", function ()
     return {
         restrict: "E",
         transclude: true,
-        template:   "<h2>Life sucks</h2>"
+        template:   "<h2>open the console1</h2>"
     }
 });
