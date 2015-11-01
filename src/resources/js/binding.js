@@ -1,8 +1,7 @@
 var app = angular.module("MyApp", []);
-app.controller("MainCtrl", function ($scope)
-{
-               
-               $scope.data = {
-               label: "My Button1"
-               };
+app.controller("MainCtrl", function ($scope) {
+    $scope.data = {
+        label: "WARNING",
+        class: "btn-warning"
+    };
 });
