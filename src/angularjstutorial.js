@@ -1,5 +1,5 @@
 var app = angular.module("MyApp", []);
-app.controller("MainCtrl". function ($scope)
+app.controller("AnimCtrl". function ($scope)
 {
                
                $scope.data = {

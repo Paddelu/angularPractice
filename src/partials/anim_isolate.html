@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div>
+            <figure>
+                <img src="{{image}}">
+                <figcaption>{{name}}</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div>Select move Type:
+        <select data-ng-model="movetype"
+                data-ng-options="movetype for movetype in movetypes"></select>    
+    </div>
+</div>
